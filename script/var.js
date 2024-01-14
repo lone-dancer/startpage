@@ -60,6 +60,7 @@ var favorites = [
       ["New's Minimalist" , "https://www.newsminimalist.com/", "nm"],
       ["Tildes" , "https://tildes.net/", "~"],
     ]
+  ],
   [ "Download",
     [
       ["1337", "https://1337x.to/", "13"],
