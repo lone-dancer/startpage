@@ -64,6 +64,7 @@ var favorites = [
   [ "Download",
     [
       ["1337", "https://1337x.to/", "13"],
+      ["Khinsider", "https://downloads.khinsider.com/", "kh"],
     ]
    ],
   
