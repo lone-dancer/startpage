@@ -39,35 +39,35 @@ var searchs = [
 ];
 var favorites = [
   [ "Tools",
-    [
+   [
       ["Youtube" , "https://www.youtube.com/", "yt"],
       ["Gmail" , "https://mail.google.com/mail/u/0/#inbox", "gm"],
       ["Brain.fm" , "https://my.brain.fm/", "bfm"],
       ["VClock" , "https://vclock.com", "vc"],
-    ]
+    ],
   ],
   [ "Reading",
    [
      ["Tumblr" , "https://www.tumblr.com", "tb"],
      ["Royal Road" , "https://www.royalroad.com/home", "rr"],
      ["Anna's Archive" , "https://annas-archive.org/", "aa"],
-     ["Lone's Forum"] , "https://lonedancer-notes.freeforums.net/", "lf"],
-     ]
+     ["Lone's Forum", "https://lonedancer-notes.freeforums.net/", "lf"],
+   ],
   ],
   [ "News",
-    [
-      ["Qot News" , "https://news.t0.vc/#", "qn"],
-      ["New's Minimalist" , "https://www.newsminimalist.com/", "nm"],
-      ["Tildes" , "https://tildes.net/", "~"],
-    ]
+   [
+     ["Qot News" , "https://news.t0.vc/#", "qn"],
+     ["New's Minimalist" , "https://www.newsminimalist.com/", "nm"],
+     ["Tildes" , "https://tildes.net/", "~"],
+   ]
   ],
   [ "Download",
     [
       ["1337", "https://1337x.to/", "13"],
     ]
-  ],
+   ],
   
-];
+  ];
 var feeds = [
   ["New's Minimalist","https://rss.beehiiv.com/feeds/4aF2pGVAEN.xml"],
 ];
