@@ -34,7 +34,7 @@ var images = [
 var searchs = [
   ["!g", "https://www.google.ch/#q="],
   ["!y", "https://www.youtube.com/results?search_query="],
-  ["!w", "https://www.wikiwand.com//w/index.php?search="],
+  ["!w", "https://www.wikiwand.com/en/?s="],
   ["!o", "https://www.onelook.com/thesaurus/?s="],
 ];
 var favorites = [
@@ -70,5 +70,5 @@ var favorites = [
   
   ];
 var feeds = [
-  ["Tildes","https://tildes.net/topics.rss"],
+  ["Tildes" , "https://tildes.net/topics.rss"],
 ];
