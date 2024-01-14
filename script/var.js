@@ -70,5 +70,5 @@ var favorites = [
   
   ];
 var feeds = [
-  ["New's Minimalist","https://rss.beehiiv.com/feeds/4aF2pGVAEN.xml"],
+  ["Tildes","https://tildes.net/topics.rss"],
 ];
