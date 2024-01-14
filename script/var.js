@@ -1,7 +1,7 @@
 // All the variable for the app
 // Their name are explicit
 
-var username = "Cel51"
+var username = "Lone_Dancer"
 var clientid = "be212a58528168962a39c64052c1d88e";
 var redirecturi = "http://localhost:8002/callback.html";
 var locations = [
@@ -34,56 +34,39 @@ var images = [
 var searchs = [
   ["!g", "https://www.google.ch/#q="],
   ["!y", "https://www.youtube.com/results?search_query="],
-  ["!w", "https://en.wikipedia.org/w/index.php?search="]
+  ["!w", "https://www.wikiwand.com//w/index.php?search="],
+  ["!o", "https://www.onelook.com/thesaurus/?s="],
 ];
 var favorites = [
-  [ "Work",
+  [ "Tools",
     [
-      ["cpnv" , "http://intranet.cpnv.ch/", "cpnv"],
-      ["github" , "https://github.com/", "gh"],
-      ["gmail" , "https://mail.google.com/mail/u/0/#inbox", "gm"],
-      ["bitbucket" , "http://bitbucket.org", "bb"]
+      ["Youtube" , "https://www.youtube.com/", "yt"],
+      ["Gmail" , "https://mail.google.com/mail/u/0/#inbox", "gm"],
+      ["Brain.fm" , "https://my.brain.fm/", "bfm"],
+      ["VClock" , "https://vclock.com", "vc"],
     ]
   ],
-  [ "Social",
-    [
-      ["whatsapp" , "https://web.whatsapp.com/", "wa"],
-      ["hangouts" , "http://hangouts.google.com", "hang"],
-      ["facebook" , "https://www.facebook.com/" , "fb"],
-      ["twitter" , "https://twitter.com/", "twi"]
-    ]
+  [ "Reading",
+   [
+     ["Tumblr" , "https://www.tumblr.com", "tb"],
+     ["Royal Road" , "https://www.royalroad.com/home", "rr"],
+     ["Anna's Archive" , "https://annas-archive.org/", "aa"],
+     ["Lone's Forum"] , "https://lonedancer-notes.freeforums.net/", "lf"],
+     ]
   ],
+  [ "News",
+    [
+      ["Qot News" , "https://news.t0.vc/#", "qn"],
+      ["New's Minimalist" , "https://www.newsminimalist.com/", "nm"],
+      ["Tildes" , "https://tildes.net/", "~"],
+    ]
   [ "Download",
     [
-      ["thepiratebay", "http://thepiratebay.se", "tpb"],
-      ["T411", "http://www.t411.in/", "t411"]
+      ["1337", "https://1337x.to/", "13"],
     ]
   ],
-  [ "Reddit",
-    [
-      ["Frontpage", "https://www.reddit.com/", "fp"],
-      ["LoL", "https://www.reddit.com/r/leagueoflegends/", "lol"],
-      ["4chan", "https://www.reddit.com/r/4chan/", "4ch"],
-      ["Monster Hunter", "https://www.reddit.com/r/MonsterHunter/", "mh"],
-      ["Programmer Humor", "https://www.reddit.com/r/ProgrammerHumor/", "ph"]
-    ]
-  ],
-  [ "4chan",
-    [
-      ["/b/", "http://4chan.org/b/", "b"],
-      ["/wg/", "http://4chan.org/wg/", "wg"],
-      ["/g/", "http://4chan.org/g/", "g"]
-    ]
-  ],
-  [ "Others",
-    [
-      ["hugelol", "http://hugelol.com", "hgl"],
-      ["hiddenlol", "http://hiddenlol.com", "hdl"]
-    ]
-  ]
+  
 ];
 var feeds = [
-  ["20min Hi-Tech","http://www.20min.ch/rss/rss.tmpl?type=channel&get=20&lang=ro"],
-  ["Internet is Beautiful", "https://www.reddit.com/r/InternetIsBeautiful/.rss"],
-  ["Listen to this", "https://www.reddit.com/r/listentothis/.rss"]
+  ["New's Minimalist","https://rss.beehiiv.com/feeds/4aF2pGVAEN.xml"],
 ];
