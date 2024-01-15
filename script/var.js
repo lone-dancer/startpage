@@ -44,6 +44,7 @@ var favorites = [
       ["Gmail" , "https://mail.google.com/mail/u/0/#inbox", "gm"],
       ["Brain.fm" , "https://my.brain.fm/", "bfm"],
       ["VClock" , "https://vclock.com", "vc"],
+      ["Dumb" , "https://dm.vern.cc/", "dm"],
     ],
   ],
   [ "Reading",
